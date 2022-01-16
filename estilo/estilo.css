@@ -53,7 +53,9 @@ article > p{
     margin: -20px;
     height: 100vh;
     background-image: url(/imagens/background001.jpg);
-    background-position: center right;     
+    background-position: center center;    
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 #first{
     font-family: 'saricha', cursive, Arial, Helvetica, sans-serif;
@@ -64,7 +66,7 @@ article > p{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.274);
     height: 600px;
-    width: 500px;
+    width: 550px;
     top: 5%;
     left: 3%;
   
@@ -105,6 +107,7 @@ article > p{
     position: relative;
     margin: -20px;
     height: 100vh;
+    background-size: cover; 
     background-image: url(/imagens/background002.jpg);
     background-position: center right;
 
@@ -139,4 +142,11 @@ article > p{
     font-size: 47px;
     line-height: 1.5em;
     margin: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px -20px 0px -20px;
 }
